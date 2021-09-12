@@ -1,16 +1,19 @@
 <template>
 <div id="app">
   <Heading/>
+  <Calculator/>
   </div>
 </template>
 
 <script>
-import Heading from './components/Heading.vue'
+import Heading from './components/Heading.vue';
+import Calculator from './components/Calculator.vue';
 
 export default {
   name: 'App',
   components: {
-    Heading
+    Heading,
+    Calculator
   }
 }
 </script>
