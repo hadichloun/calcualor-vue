@@ -1,4 +1,3 @@
-// eslint-disable-next-line vue/valid-template-root
 <template>
     <h1>{{ message }}</h1>
 </template>
@@ -17,5 +16,4 @@ export default {
 h1{
     color: #fff
 }
-
 </style>
